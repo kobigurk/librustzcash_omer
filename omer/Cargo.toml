@@ -1,0 +1,12 @@
+[package]
+authors = ["Kobi Gurkan <kobigurk@gmail.com>"]
+name = "omer_test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+pairing = { path = "../pairing" }
+sapling-crypto = { path = "../sapling-crypto" }
+
+[features]
+default = []
